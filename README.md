@@ -4,19 +4,16 @@
 
 [![preview](https://github.com/brokengdnb/me/blob/master/about.png?raw=true "preview")](https://github.com/brokengdnb/me "preview")
 
-
 - Forked from [editor.md (Live preview)](https://pandao.github.io/editor.md/en.html "editor.md (Live preview)")
-
 
 ---
 
 - [Installation](#installation)
+- [Downloads](#downloads)
 - [Features](#features)
 - [Documentation](#documentation)
 - [Support](#support)
 - [License](#license)
-
----
 
 ## Installation
 
@@ -25,13 +22,20 @@ git clone https://github.com/brokengdnb/me && cd me/
 npm install
 npm run start
 ```
-> simple as that...
+> simple as that... or
+
+## Downloads
+
+[![apple-app](https://github.com/brokengdnb/me/blob/master/appstore.png?raw=true "apple-app")](https://github.com/brokengdnb/me/releases "apple-app")
+
+- .app (~171MB)
+- .dmg (~80MB)
 
 ## Features
 
-- Dark theme for longer writtings
+- Dark theme for longer and comfortable time
 - Fullscreen Do-Not-Disturb style
-- App cannot be closed, quited or linked into another page => safety feature for accidentally quiting app. For quit just kill that run command  
+- App cannot be closed, quited or linked into another page => safety feature for accidentally quiting app. For quit just kill that run command or force kill by alt.
 - Support Standard Markdown / CommonMark and GFM (GitHub Flavored Markdown)
 - Full-featured: Real-time Preview, Image (cross-domain), Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...
 - Markdown Extras : Support ToC (Table of Contents), Task lists, @Links...
