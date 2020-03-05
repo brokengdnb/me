@@ -29,7 +29,7 @@ npm run start
 
 [![apple-app](https://github.com/brokengdnb/me/blob/master/appstore.png?raw=true "apple-app")](https://github.com/brokengdnb/me/releases "apple-app")
 
-- markdowneditor-1.0.0.dmg (~80MB) ===> App (~171MB)
+- [markdowneditor-1.0.0.dmg (~80MB) ===> App (~171MB)](https://github.com/brokengdnb/me/releases/tag/v1.0-alfa)
 
 > MD5
 - 9433dd529c6efa5e7aaf5b39ac9b9975
@@ -67,6 +67,7 @@ npm run start
 Could not find "wine64" on your system.
 
 ### PLAN A:
+
 ```bash
 brew install homebrew/cask-versions/wine-devel
 ```
