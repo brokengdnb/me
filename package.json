@@ -5,7 +5,13 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder"
+    "dist": "electron-builder",
+    "pack:win": "electron-packager . ME --asar --prune --platform=win32 --arch=x64 --app-version=1.0.0 --icon=icon.ico --out=build"
+  },
+  "electronPackagerConfig": {
+    "packageManager": "npm",
+    "icon": "./src/assets/imgs/icon-1024.png",
+    "asar": true
   },
   "build": {
     "productName": "markdowneditor",
@@ -49,8 +55,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^8.0.3",
-    "electron-builder": "^22.3.6"
+    "electron-builder": "^22.3.6",
+    "electron-packager": "^14.2.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
