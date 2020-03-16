@@ -86,6 +86,6 @@ If you are Mac or Linux user = NO problem.
 
 ## License
 
-[![License](http://img.shields.io/:license-mit-green.svg?style=flat-square)](http://badges.mit-license.org)
+MIT
 
     
