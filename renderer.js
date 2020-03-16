@@ -5,10 +5,81 @@
 // selectively enable features needed in the rendering
 // process.
 
+
+
+
 $(function() {
     window.onbeforeunload = function(){
         return 'Are you sure you want to leave?';
     };
+
+
+    var externalPath = "";
+
+    var holder = document.getElementById('editor');
+    var textarea_editor = document.getElementById('textarea-editor');
+
+
+    holder.ondragover = () => {
+      return false;
+    };
+
+    holder.ondragleave = () => {
+        return false;
+    };
+
+    holder.ondragend = () => {
+        return false;
+    };
+
+    holder.ondrop = (e) => {
+        e.preventDefault();
+
+        for (let f of e.dataTransfer.files) {
+            function readTextFile(file) {
+                var rawFile = new XMLHttpRequest();
+                rawFile.open("GET", file, false);
+                rawFile.onreadystatechange = function () {
+                    if(rawFile.readyState === 4) {
+                        if(rawFile.status === 200 || rawFile.status == 0) {
+                            var allText = rawFile.responseText;
+                            //console.log(allText);
+                            editor.insertValue(allText);
+                            editor.focus();
+                        }
+                    }
+                };
+                rawFile.send(null);
+            }
+            externalPath = f.path;
+            readTextFile(f.path);
+        }
+        return false;
+    };
+
+
+    $(document).keydown(function(e) {
+        var key = undefined;
+        var possible = [ e.key, e.keyIdentifier, e.keyCode, e.which ];
+
+        while (key === undefined && possible.length > 0) {
+            key = possible.pop();
+        }
+
+        if (key && (key == '115' || key == '83' ) && (e.ctrlKey || e.metaKey) && !(e.altKey)) {
+            e.preventDefault();
+            alert("Ctrl-s pressed");
+
+
+            let content = "Some text to save into the file";
+
+// You can obviously give a direct path without use the dialog (C:/Program Files/path/myfileexample.txt)
+                window.openSaveWindow(content);
+
+            return false;
+        }
+        return true;
+    });
 
     var editor = editormd("editor", {
         width: "100vw",

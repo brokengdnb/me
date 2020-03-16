@@ -6,7 +6,8 @@
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder",
-    "pack:win": "electron-packager . ME --asar --prune --platform=win32 --arch=x64 --app-version=1.0.0 --icon=icon.ico --out=build"
+    "pack:win": "electron-packager . ME --asar --prune --platform=win32 --arch=x64 --product-version=1.0.0 --icon=icon.ico --out=build",
+    "pack:linux": "electron-packager . ME --asar --prune --platform=linux --arch=x64 --app-version=1.0.0 --icon=icon.ico --out=build"
   },
   "electronPackagerConfig": {
     "packageManager": "npm",
