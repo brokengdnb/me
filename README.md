@@ -30,14 +30,10 @@ npm run start
 
 [![apple-app](https://github.com/brokengdnb/me/blob/master/appstore.png?raw=true "apple-app")](https://github.com/brokengdnb/me/releases "apple-app")
 
-- [markdowneditor-1.0.0.dmg (~80MB) ===> App (~171MB)](https://github.com/brokengdnb/me/releases/tag/v1.0-alfa)
+- [ME-1.1.0.dmg (~70MB) ===> App (~172MB)](https://github.com/brokengdnb/me/releases/tag/v1.1)
 
 > MD5
-- 9433dd529c6efa5e7aaf5b39ac9b9975
-
-> shasum 256
-- 4082255549cfc97371d0c342721c892ee2b4352564e43db2205d6606c7614325
-
+- abcd9e60072945b7b9aaed886d9638e8
 
 
 ## Features
@@ -87,5 +83,3 @@ If you are Mac or Linux user = NO problem.
 ## License
 
 MIT
-
-    

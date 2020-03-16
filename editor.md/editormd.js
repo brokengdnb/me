@@ -59,7 +59,7 @@
     };
     
     editormd.title        = editormd.$name = "ME - Markdown Editor";
-    editormd.version      = "1.0.0";
+    editormd.version      = "1.1.0";
     editormd.homePage     = "https://brokengdnb.github.io/me/";
     editormd.classPrefix  = "editormd-";
     

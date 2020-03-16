@@ -1,13 +1,13 @@
 {
   "name": "markdown-editor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A minimal, simple, dark themed Markdown Editor bundled in cross-platform Electron App (OS X, Linux, Windows)",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder",
-    "pack:win": "electron-packager . ME --asar --prune --platform=win32 --arch=x64 --product-version=1.0.0 --icon=icon.ico --out=build",
-    "pack:linux": "electron-packager . ME --asar --prune --platform=linux --arch=x64 --app-version=1.0.0 --icon=icon.ico --out=build"
+    "pack:win": "electron-packager . ME --asar --prune --platform=win32 --arch=x64 --product-version=1.1.0 --icon=icon.ico --out=build",
+    "pack:linux": "electron-packager . ME --asar --prune --platform=linux --arch=x64 --app-version=1.1.0 --icon=icon.ico --out=build"
   },
   "electronPackagerConfig": {
     "packageManager": "npm",
@@ -15,7 +15,7 @@
     "asar": true
   },
   "build": {
-    "productName": "markdowneditor",
+    "productName": "ME",
     "appId": "com.markdown.editor.app",
     "mac": {
       "category": "Editor"
