@@ -7,6 +7,8 @@
 - Forked from [editor.md (Live preview)](https://pandao.github.io/editor.md/en.html "editor.md (Live preview)") and bundled with Electron to act like off-line app... on my Mac. Just an idea but it works very well on daily use.
 - WHY? Because I cannot find any Markdown Editor in dark mode but show me that results normaly like the original page (Git). Live preview with double scroll, all needed buttons like WORD or textEdit. Editor who remember (undo) and all those things... which I don't and who will make it done... for me. So that's ME.
 
+[![demo](https://github.com/brokengdnb/me/blob/master/demo.gif?raw=true "demo")](https://github.com/brokengdnb/me "demo")
+
 ---
 
 - [Installation](#installation)
@@ -77,7 +79,7 @@ winecfg
 
 That will solve the problem of creating App for Microsoft Windows but still that .exe didn't wokr out nether. After who days of closed code and useless logs I gave on Mincosoft = NO windows.
 
-If you are Mac or Linux user = NO problem.
+BUT!!! If you are Mac or Linux user = NO problem.
 
 
 ## License
