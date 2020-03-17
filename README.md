@@ -7,26 +7,20 @@
 - Forked from [editor.md (Live preview)](https://pandao.github.io/editor.md/en.html "editor.md (Live preview)") and bundled with Electron to act like off-line app... on my Mac. Just an idea but it works very well on daily use.
 - WHY? Because I cannot find any Markdown Editor in dark mode but show me that results normaly like the original page (Git). Live preview with double scroll, all needed buttons like WORD or textEdit. Editor who remember (undo) and all those things... which I don't and who will make it done... for me. So that's ME.
 
-[![demo](https://github.com/brokengdnb/me/blob/master/demo.gif?raw=true "demo")](https://github.com/brokengdnb/me "demo")
-
 ---
 
-- [Installation](#installation)
+- [Demo](#demo)
 - [Downloads](#downloads)
+- [Compilation](#compilation)
 - [Features](#features)
 - [Documentation](#documentation)
 - [Support](#support)
 - [Errors](#errors)
 - [License](#license)
 
-## Installation
+## Demo
 
-```bash
-git clone https://github.com/brokengdnb/me && cd me/
-npm install
-npm run start
-```
-> simple as that... or
+[![demo](https://github.com/brokengdnb/me/blob/master/demo.gif?raw=true "demo")](https://github.com/brokengdnb/me "demo")
 
 ## Downloads
 
@@ -37,6 +31,14 @@ npm run start
 > MD5
 - abcd9e60072945b7b9aaed886d9638e8
 
+## Compilation
+
+```bash
+git clone https://github.com/brokengdnb/me && cd me/
+npm install
+npm run start
+```
+> simple as that... 
 
 ## Features
 
@@ -58,7 +60,7 @@ npm run start
 
 - **OS X (beste)**
 - Linux (ok)
-- ~~Windows~~  => rcedit.exe failed with exit code null *(So I don't have one and I will **NOT** support this platform. Call Microsoft service in India or your local IT "experts")*
+- ~~Windows~~  => rcedit.exe failed with exit code null *(So I don't have one and I will **NOT** support this platform. Call Microsoft service in India or your local IT "experts" because I'll not do that)*
 
 ## Errors
 
