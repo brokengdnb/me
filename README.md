@@ -4,8 +4,8 @@
 
 [![preview](https://github.com/brokengdnb/me/blob/master/about.png?raw=true "preview")](https://github.com/brokengdnb/me "preview")
 
-- Forked from [editor.md (Live preview)](https://pandao.github.io/editor.md/en.html "editor.md (Live preview)") and bundled with Electron to act like off-line app... on my Mac. Just an idea but it works very well on daily use.
 - WHY? Because I cannot find any Markdown Editor in dark mode but show me that results normaly like the original page (Git). Live preview with double scroll, all needed buttons like WORD or textEdit. Editor who remember (undo) and all those things... which I don't and who will make it done... for me. So that's ME.
+- Forked from [editor.md (Live preview)](https://pandao.github.io/editor.md/en.html "editor.md (Live preview)") and bundled with Electron to act like off-line app... on my Mac. Just an idea but it works very well on daily use.
 
 ---
 
@@ -58,8 +58,8 @@ npm run start
 
 ## Support
 
-- **OS X (beste)**
-- Linux (ok)
+- **OS X (tasted on 10.14.6)**
+- Linux
 - ~~Windows~~  => rcedit.exe failed with exit code null *(So I don't have one and I will **NOT** support this platform. Call Microsoft service in India or your local IT "experts" because I'll not do that)*
 
 ## Errors
@@ -86,4 +86,6 @@ BUT!!! If you are Mac or Linux user = NO problem.
 
 ## License
 
-MIT
+The MIT License.
+
+Copyright (c) 2020 BrokenG
